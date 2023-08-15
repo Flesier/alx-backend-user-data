@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Create a sqlalchemy model 
+""" Create a sqlalchemy model
 named user for a database
 """
 from sqlalchemy import Column, Integer, String
@@ -9,7 +9,7 @@ Base = declarative_base()
 
 
 class User(Base):
-    """ Create a sqlalchemy model 
+    """ Create a sqlalchemy model
     named user for a database
     """
     __tablename__ = 'users'
